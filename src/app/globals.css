@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: #FAF8F5;
+    --color-text: #1A1917;
+  }
+  
+  html.dark {
+    --color-bg: #0a0a0a;
+    --color-text: #ffffff;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    transition: background-color 0.5s cubic-bezier(0.16, 1, 0.3, 1), color 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom Cursor */
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background-color: rgba(26, 25, 23, 0.8);
+  mix-blend-mode: difference;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transition: width 0.3s cubic-bezier(0.16, 1, 0.3, 1), height 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html.dark .custom-cursor {
+  background-color: #ffffff;
+}
+
+body:hover .custom-cursor {
+  opacity: 1;
+}
+
+/* Lenis */
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Optimized CSS Marquee running on hardware-accelerated compositor thread */
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-marquee {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: marquee 25s linear infinite;
+  will-change: transform;
+}
+
+/* Luxury Soft Shadow System */
+.shadow-luxury-light {
+  box-shadow: 
+    0 10px 30px -8px rgba(26, 25, 23, 0.08),
+    0 20px 60px -15px rgba(26, 25, 23, 0.04),
+    0 0 0 1px rgba(26, 25, 23, 0.04);
+}
+
+.shadow-luxury-dark {
+  box-shadow: 
+    0 25px 50px -12px rgba(0, 0, 0, 0.6),
+    0 0 0 1px rgba(255, 255, 255, 0.04);
+}
+
+.shadow-luxury {
+  transition: box-shadow 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@media (prefers-color-scheme: dark) {
+  .shadow-luxury {
+    box-shadow: 
+      0 25px 50px -12px rgba(0, 0, 0, 0.6),
+      0 0 0 1px rgba(255, 255, 255, 0.04);
+  }
+}
+html.dark .shadow-luxury {
+  box-shadow: 
+    0 25px 50px -12px rgba(0, 0, 0, 0.6),
+    0 0 0 1px rgba(255, 255, 255, 0.04);
+}
+html:not(.dark) .shadow-luxury {
+  box-shadow: 
+    0 10px 30px -8px rgba(26, 25, 23, 0.08),
+    0 20px 60px -15px rgba(26, 25, 23, 0.04),
+    0 0 0 1px rgba(26, 25, 23, 0.04);
+}
+
+/* Completely remove Next.js dev server indicators, Vercel badges, and toolbar elements */
+nextjs-portal,
+#nextjs-portal,
+[data-nextjs-toast],
+[data-nextjs-dialog-overlay],
+.nextjs-toast,
+#nextjs-toast,
+.nextjs-static-indicator-toast-wrapper,
+#nextjs-static-indicator-toast-wrapper,
+[data-vercel-feedback-button],
+.vercel-feedback-button,
+#__next-prerender-indicator {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  opacity: 0 !important;
+}
+
+/* Premium Desktop Scrollbar Refinement */
+@media (min-width: 1024px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(26, 25, 23, 0.15);
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    transition: background-color 0.3s ease;
+  }
+  html.dark ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.08);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(26, 25, 23, 0.3);
+  }
+  html.dark ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+  }
+  
+  /* Firefox Easing Scrollbar Support */
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(26, 25, 23, 0.15) transparent;
+  }
+  html.dark {
+    scrollbar-color: rgba(255, 255, 255, 0.08) transparent;
+  }
+}
+
+
