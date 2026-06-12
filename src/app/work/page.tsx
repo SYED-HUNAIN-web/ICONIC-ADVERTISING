@@ -12,66 +12,66 @@ const projects = [
     id: 1,
     title: "Jeddah Yacht Club",
     category: "spatial",
-    description: "Spatial Identity, Signage & Outdoor Fabrics",
+    description: "Outdoor Signs, Brand Displays & Fabric Banners",
     image: "/images/jeddah_yacht_club.webp",
     scale: "850 Sq. Meters",
-    finishing: "VIP Brushed Brass Facades",
-    calibration: "Structural Marine Grade Calibration",
+    finishing: "Brushed Brass Signs",
+    calibration: "Weather-Resistant Materials",
     aspect: "aspect-[16/10] md:col-span-2",
   },
   {
     id: 2,
     title: "Armani Exchange",
     category: "retail",
-    description: "Premium Retail Displays & Print Production",
+    description: "Storefront Signs & Printed Catalogues",
     image: "/images/armani_exchange.jpg",
     scale: "Saudi Showrooms",
-    finishing: "Backlit High-Tension Fabric Signs",
-    calibration: "Color-Accuracy Calibration Index",
+    finishing: "Backlit Fabric Signs",
+    calibration: "Perfect Color Matching",
     aspect: "aspect-[1/1] md:col-span-1",
   },
   {
     id: 3,
     title: "Rubaiyat Store",
     category: "retail",
-    description: "Luxury Boutique Stationery & Hot-Foiled Packaging",
+    description: "Custom Gift Packaging & Stationery",
     image: "/images/rubaiyat_store.webp",
     scale: "Flagship Retail Collections",
-    finishing: "Bespoke 24K Hot Gold-Foil Stamps",
-    calibration: "Embossed Fine Cotton Stock",
+    finishing: "Gold Foil Printing",
+    calibration: "Premium Embossed Paper",
     aspect: "aspect-[1/1] md:col-span-1",
   },
   {
     id: 4,
     title: "Jeddah Roadside Canvas",
     category: "print",
-    description: "High-Altitude Billboard Campaigns & Fabric Production",
+    description: "Large Outdoor Billboards & Prints",
     image: "/images/hero_billboard_1780310463480.png",
     scale: "Double-Height Highway Vistas",
-    finishing: "Waterproof Weather-resistant Ink Coating",
-    calibration: "High-Reach Spotlight Layouts",
+    finishing: "Waterproof & Weatherproof Ink",
+    calibration: "High-Visibility Designs",
     aspect: "aspect-[16/10] md:col-span-2",
   },
   {
     id: 5,
     title: "Elite Edition Lookbook",
     category: "print",
-    description: "High-end Soft Touch Velvet Magazines & Catalogs",
+    description: "Premium Magazines & Catalogues",
     image: "/images/magazine_print_1780310572567.png",
     scale: "Milestone Corporate Editions",
-    finishing: "Velvet Soft-Touch Foil Binding",
-    calibration: "German Offset Multi-Tone Presets",
+    finishing: "Velvet Soft-Touch Covers",
+    calibration: "High-Quality Color Printing",
     aspect: "aspect-[16/10] md:col-span-2",
   },
   {
     id: 6,
     title: "Stationery Portfolio",
     category: "spatial",
-    description: "Embossed Corporate Folders & Fine Art Print Cards",
+    description: "Custom Folders & Business Cards",
     image: "/images/branding_mockup_1780310477402.png",
     scale: "Bespoke Executive Folders",
-    finishing: "Embossed Fine Art Textured Stock",
-    calibration: "Swiss Laser Precision Calibrations",
+    finishing: "Textured Premium Paper",
+    calibration: "Precise Laser Cutting",
     aspect: "aspect-[1/1] md:col-span-1",
   }
 ];
@@ -129,14 +129,14 @@ export default function Work() {
         
         {/* 1. Page Header */}
         <section className="relative min-h-[45vh] flex flex-col justify-center mb-10 md:mb-16 border-b border-light-border dark:border-dark-border pb-8 md:pb-16">
-          <span className="text-royal text-xs font-syne font-bold uppercase tracking-widest mb-6 block">[ Creative Archive ]</span>
+          <span className="text-royal text-xs font-syne font-bold uppercase tracking-widest mb-6 block">[ Our Projects ]</span>
           <div className="overflow-hidden mb-8">
             <h1 className="reveal-mask text-[8vw] leading-[0.85] font-syne font-extrabold uppercase tracking-tighter text-stone-900 dark:text-white">
-              Selected <span className="font-serif italic font-light text-royal tracking-normal normal-case">Physical Creations.</span>
+              Our <span className="font-serif italic font-light text-royal tracking-normal normal-case">Recent Work.</span>
             </h1>
           </div>
           <p className="text-xl md:text-2xl font-serif font-light text-stone-600 dark:text-white/60 max-w-2xl leading-relaxed">
-            A meticulous chronicle of structural graphics, boutique retail assets, and fine art offsets calibrated for Saudi Arabia's leading luxury portfolios.
+            Explore our portfolio of outdoor signs, storefront designs, and custom printing projects for leading brands in Saudi Arabia.
           </p>
         </section>
  
@@ -152,19 +152,19 @@ export default function Work() {
             onClick={() => setFilter("spatial")} 
             className={`transition-all duration-300 py-2.5 px-5 border rounded-xs ${filter === "spatial" ? "border-royal text-royal bg-royal/5 shadow-luxury shadow-luxury-light dark:shadow-luxury-dark" : "border-transparent text-stone-600 dark:text-white/60 hover:text-royal"}`}
           >
-            Spatial & Marine Signs
+            Signs & Displays
           </button>
           <button 
             onClick={() => setFilter("retail")} 
             className={`transition-all duration-300 py-2.5 px-5 border rounded-xs ${filter === "retail" ? "border-royal text-royal bg-royal/5 shadow-luxury shadow-luxury-light dark:shadow-luxury-dark" : "border-transparent text-stone-600 dark:text-white/60 hover:text-royal"}`}
           >
-            Luxury Retail Outfits
+            Retail Signs
           </button>
           <button 
             onClick={() => setFilter("print")} 
             className={`transition-all duration-300 py-2.5 px-5 border rounded-xs ${filter === "print" ? "border-royal text-royal bg-royal/5 shadow-luxury shadow-luxury-light dark:shadow-luxury-dark" : "border-transparent text-stone-600 dark:text-white/60 hover:text-royal"}`}
           >
-            Tactile Print & OOH
+            Printing & Billboards
           </button>
         </div>
  
@@ -199,7 +199,7 @@ export default function Work() {
                   {/* Detailed Specs sliding up on hover */}
                   <div className="border-t border-white/20 pt-4 mt-4 flex flex-col gap-2 text-[10px] font-syne font-semibold uppercase tracking-widest opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-700">
                     <div className="flex justify-between">
-                      <span className="opacity-50">Scale & Scope /</span>
+                      <span className="opacity-50">Project Size /</span>
                       <span>{p.scale}</span>
                     </div>
                     <div className="flex justify-between">
@@ -207,7 +207,7 @@ export default function Work() {
                       <span>{p.finishing}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="opacity-50">Calibration /</span>
+                      <span className="opacity-50">Materials /</span>
                       <span>{p.calibration}</span>
                     </div>
                   </div>
