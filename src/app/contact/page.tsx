@@ -82,10 +82,10 @@ export default function Contact() {
         
         {/* 1. Header */}
         <section className="relative min-h-[35vh] flex flex-col justify-center mb-10 md:mb-16 border-b border-light-border dark:border-dark-border pb-8 md:pb-16">
-          <span className="text-royal text-xs font-syne font-bold uppercase tracking-widest mb-6 block">[ VIP Communications ]</span>
+          <span className="text-royal text-xs font-syne font-bold uppercase tracking-widest mb-6 block">[ Contact Us ]</span>
           <div className="overflow-hidden mb-6">
             <h1 className="reveal-mask text-[8vw] leading-[0.85] font-syne font-extrabold uppercase tracking-tighter text-stone-900 dark:text-white">
-              Start A <br /><span className="font-serif italic font-light text-royal tracking-normal normal-case">Conversation.</span>
+              Get In <br /><span className="font-serif italic font-light text-royal tracking-normal normal-case">Touch.</span>
             </h1>
           </div>
         </section>
@@ -113,26 +113,26 @@ export default function Contact() {
             </div>
  
             <div>
-              <h2 className="text-2xl font-syne font-extrabold uppercase tracking-tighter mb-4 text-stone-900 dark:text-white">Direct Liaisons</h2>
+              <h2 className="text-2xl font-syne font-extrabold uppercase tracking-tighter mb-4 text-stone-900 dark:text-white">Call Us</h2>
               <p className="text-base text-stone-600 dark:text-white/60 font-light mb-8">
-                Connect directly with our corporate account directors in Jeddah. We maintain a responsive 24/7 client communication structure for luxury OOH campaigns and print layouts.
+                Feel free to call or WhatsApp us. Our support team in Jeddah is ready to help you with your printing and advertising projects.
               </p>
               
               <div className="flex flex-col gap-6 font-syne font-bold uppercase tracking-wider text-xs">
                 <div>
-                  <span className="block text-[10px] text-stone-400 dark:text-white/40 mb-2 font-syne">[ Call Direct / WhatsApp ]</span>
+                  <span className="block text-[10px] text-stone-400 dark:text-white/40 mb-2 font-syne">[ Phone / WhatsApp ]</span>
                   <a href="tel:+966508570135" className="text-2xl font-extrabold text-royal hover:text-royal-hover block mb-2 transition-colors">+966 50 857 0135</a>
                   <a href="tel:+966504434890" className="text-2xl font-extrabold text-royal hover:text-royal-hover block transition-colors">+966 50 443 4890</a>
                 </div>
                 <div>
-                  <span className="block text-[10px] text-stone-400 dark:text-white/40 mb-2 font-syne">[ Email Liaison ]</span>
+                  <span className="block text-[10px] text-stone-400 dark:text-white/40 mb-2 font-syne">[ Email Us ]</span>
                   <a href="mailto:print@iconic-advertising.com" className="text-xl font-extrabold text-royal hover:text-royal-hover block transition-colors">print@iconic-advertising.com</a>
                 </div>
               </div>
             </div>
  
             <div className="border-t border-light-border dark:border-dark-border pt-8 font-light text-stone-700 dark:text-white/70">
-              <h3 className="text-lg font-syne font-bold uppercase tracking-tight mb-2 text-stone-900 dark:text-white">Location Headquarters</h3>
+              <h3 className="text-lg font-syne font-bold uppercase tracking-tight mb-2 text-stone-900 dark:text-white">Our Address</h3>
               <p className="leading-relaxed">
                 Jeddah,<br />
                 Kingdom of Saudi Arabia
@@ -143,18 +143,18 @@ export default function Contact() {
  
           {/* Right Panel: Minimalist Luxury Form */}
           <div className="lg:col-span-7 text-stone-900 dark:text-white">
-            <h2 className="text-3xl font-syne font-extrabold uppercase tracking-tighter mb-8">Brief Your Project</h2>
+            <h2 className="text-3xl font-syne font-extrabold uppercase tracking-tighter mb-8">Send Us a Message</h2>
             
             {submitted ? (
               <div className="bg-royal/5 border border-royal p-8 text-royal font-syne font-bold uppercase tracking-widest text-center text-xs rounded-sm shadow-inner transition-opacity duration-500">
-                ✦ Your project brief has been successfully securely routed. An account liaison will call you shortly. ✦
+                ✦ Thank you. Your message has been sent. We will contact you shortly. ✦
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-8 font-syne font-semibold uppercase tracking-wider text-[10px] transition-opacity duration-500">
                 
                 {error && (
                   <div className="md:col-span-2 bg-red-500/10 border border-red-500 p-4 text-red-500 font-syne font-bold uppercase tracking-widest text-center text-[10px] rounded-sm">
-                    Transmission Failed. Please check your network or contact us directly.
+                    Failed to send. Please check your connection or contact us directly.
                   </div>
                 )}
 
@@ -219,11 +219,11 @@ export default function Contact() {
                     className="w-full bg-transparent border-none outline-none text-sm text-stone-900 dark:text-white font-sans mt-1 disabled:opacity-50 cursor-pointer"
                   >
                     <option value="" disabled className="text-stone-400 dark:bg-dark-surface">Select a service</option>
-                    <option value="Tactile Printing & Packaging" className="dark:bg-dark-surface">Tactile Printing & Packaging</option>
-                    <option value="Publishing & Corporate Documentation" className="dark:bg-dark-surface">Publishing & Corporate Documentation</option>
-                    <option value="OOH Advertising & Billboards" className="dark:bg-dark-surface">OOH Advertising & Billboards</option>
-                    <option value="Architectural & Premium Signage" className="dark:bg-dark-surface">Architectural & Premium Signage</option>
-                    <option value="Other / Comprehensive Campaign" className="dark:bg-dark-surface">Other / Comprehensive Campaign</option>
+                    <option value="Custom Printing & Packaging" className="dark:bg-dark-surface">Custom Printing & Packaging</option>
+                    <option value="Corporate Folders & Books" className="dark:bg-dark-surface">Corporate Folders & Books</option>
+                    <option value="Outdoor Billboards" className="dark:bg-dark-surface">Outdoor Billboards</option>
+                    <option value="Storefronts & Signs" className="dark:bg-dark-surface">Storefronts & Signs</option>
+                    <option value="Other Service" className="dark:bg-dark-surface">Other Service</option>
                   </select>
                 </div>
  
@@ -235,18 +235,18 @@ export default function Contact() {
                     disabled={isSubmitting}
                     value={formState.message}
                     onChange={(e) => setFormState({ ...formState, message: e.target.value })}
-                    placeholder="Briefly state your campaign parameters, dimensional requirements, or deadline milestones..." 
+                    placeholder="Tell us about your project, size requirements, or deadlines..." 
                     className="w-full bg-transparent border-none outline-none text-sm resize-none placeholder-stone-400 dark:placeholder-white/30 text-stone-900 dark:text-white font-sans mt-2 normal-case leading-relaxed disabled:opacity-50"
                   />
                 </div>
- 
+
                 <div className="md:col-span-2 mt-2">
                   <button 
                     type="submit" 
                     disabled={isSubmitting}
                     className="w-full md:w-auto bg-royal hover:bg-royal-hover text-white px-12 py-5 font-syne font-bold uppercase tracking-widest text-xs transition-all duration-300 rounded-sm shadow-xl hover:translate-y-[-2px] disabled:opacity-70 disabled:hover:translate-y-0 flex items-center justify-center gap-4"
                   >
-                    {isSubmitting ? "Transmitting..." : "Transmit Briefing ✦"}
+                    {isSubmitting ? "Sending..." : "Send Message ✦"}
                   </button>
                 </div>
  
