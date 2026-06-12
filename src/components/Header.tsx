@@ -180,12 +180,12 @@ export default function Header() {
               className="grid grid-cols-1 sm:grid-cols-2 gap-8 border-t border-black/5 dark:border-white/5 pt-8 mt-12 relative z-10 text-[10px] font-syne font-bold uppercase tracking-widest"
             >
               <div className="flex flex-col gap-2">
-                <span className="text-black/40 dark:text-white/40 block">[ Call Direct Liaison ]</span>
+                <span className="text-black/40 dark:text-white/40 block">[ Call Us ]</span>
                 <a href="tel:+966508570135" className="text-black/80 dark:text-white/80 hover:text-royal transition-colors">+966 50 857 0135</a>
                 <a href="tel:+966504434890" className="text-black/80 dark:text-white/80 hover:text-royal transition-colors">+966 50 443 4890</a>
               </div>
               <div className="flex flex-col gap-2">
-                <span className="text-black/40 dark:text-white/40 block">[ Digital HQ Coordinates ]</span>
+                <span className="text-black/40 dark:text-white/40 block">[ Contact Info ]</span>
                 <a href="mailto:print@iconic-advertising.com" className="text-black/80 dark:text-white/80 hover:text-royal transition-colors lowercase">print@iconic-advertising.com</a>
                 <span className="text-black/60 dark:text-white/60 font-light font-sans normal-case block">Jeddah, Saudi Arabia</span>
               </div>
