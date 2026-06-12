@@ -22,8 +22,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "ICONIC ADVERTISING | Premium Creative Partner",
-  description: "Helping businesses create powerful visual identities through premium printing, publishing, branding, advertising, and marketing solutions.",
+  title: "ICONIC ADVERTISING | Printing & Advertising Services",
+  description: "We help businesses grow and promote their brand with high-quality printing, advertising, and marketing services.",
 };
 
 export default function RootLayout({
@@ -51,7 +51,7 @@ export default function RootLayout({
                     <Link href="/">ICONIC</Link>
                   </div>
                   <p className="text-black/60 dark:text-white/60 text-lg leading-relaxed font-light">
-                    A premium creative partner, modern branding agency, and professional advertising company.
+                    A professional company offering quality printing and advertising services to help your business grow.
                   </p>
                 </div>
                 <div>
