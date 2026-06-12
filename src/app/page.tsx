@@ -314,9 +314,9 @@ export default function Home() {
             transition={{ delay: 1.4, duration: 1.2 }}
             className="flex flex-col gap-1.5"
           >
-            <span className="text-[10px] font-syne font-bold uppercase tracking-widest text-royal block">[ Strategic Creative Partners ]</span>
+            <span className="text-[10px] font-syne font-bold uppercase tracking-widest text-royal block">[ Printing & Advertising Services ]</span>
             <p className="text-[11px] font-syne font-semibold uppercase tracking-widest leading-relaxed text-stone-600 dark:text-white/60">
-              Forging Physical Realities & Elite Branding Legacies
+              Quality printing and advertising for your business
               <br />Based in Jeddah, Saudi Arabia
             </p>
           </motion.div>
@@ -341,7 +341,7 @@ export default function Home() {
               Our <span className="text-royal">Expertise</span>
             </h2>
             <p className="text-lg md:text-xl font-serif italic font-light text-stone-600 dark:text-white/60 max-w-md leading-relaxed">
-              We operate at the interface of architectural fabrication and creative direction. We do not construct advertisements; we shape permanent structures.
+              We help businesses promote their brand with high-quality printing, signs, and advertising. We deliver clear and professional results for every project.
             </p>
           </div>
 
@@ -378,9 +378,9 @@ export default function Home() {
                   <span>[ 01 / Print Craft ]</span>
                   <span className="h-[1px] w-12 bg-royal/40" />
                 </div>
-                <h3 className="text-4xl sm:text-5xl md:text-6xl font-syne font-extrabold uppercase tracking-tighter text-stone-900 dark:text-white">Tactile.</h3>
+                <h3 className="text-4xl sm:text-5xl md:text-6xl font-syne font-extrabold uppercase tracking-tighter text-stone-900 dark:text-white">Printing.</h3>
                 <p className="text-lg md:text-xl font-light leading-relaxed text-stone-700 dark:text-white/70">
-                  Using state-of-the-art Swiss flatbed UV offset technology and sample templates. We engineer visual catalogues and high-texture portfolios that command physical authority.
+                  We offer professional printing services using modern technology. From catalogs to business cards, we ensure your printed materials look clean and professional.
                 </p>
                 <div className="flex flex-wrap gap-3 pt-4 text-[10px] font-syne font-semibold uppercase tracking-wider text-stone-500 dark:text-white/50">
                   <span className="border border-light-border dark:border-white/10 px-3 py-1 rounded-xs">24K Gold Foiling</span>
@@ -421,9 +421,9 @@ export default function Home() {
                   <span>[ 02 / Publishing ]</span>
                   <span className="h-[1px] w-12 bg-royal/40" />
                 </div>
-                <h3 className="text-4xl sm:text-5xl md:text-6xl font-syne font-extrabold uppercase tracking-tighter text-stone-900 dark:text-white">Heritage.</h3>
+                <h3 className="text-4xl sm:text-5xl md:text-6xl font-syne font-extrabold uppercase tracking-tighter text-stone-900 dark:text-white">Custom Packaging.</h3>
                 <p className="text-lg md:text-xl font-light leading-relaxed text-stone-700 dark:text-white/70">
-                  Masterfully styled layouts that document corporate milestones. From rigid luxury gift wrapping box designs to premium velvet soft-touch folders. 
+                  We design and produce custom corporate packaging, presentation folders, and gift boxes to make your brand stand out.
                 </p>
                 <div className="flex flex-wrap gap-3 pt-4 text-[10px] font-syne font-semibold uppercase tracking-wider text-stone-500 dark:text-white/50">
                   <span className="border border-light-border dark:border-white/10 px-3 py-1 rounded-xs">Hot Embossing</span>
@@ -464,9 +464,9 @@ export default function Home() {
                   <span>[ 03 / OOH Advertising ]</span>
                   <span className="h-[1px] w-12 bg-royal/40" />
                 </div>
-                <h3 className="text-4xl sm:text-5xl md:text-6xl font-syne font-extrabold uppercase tracking-tighter text-stone-900 dark:text-white">Monolithic.</h3>
+                <h3 className="text-4xl sm:text-5xl md:text-6xl font-syne font-extrabold uppercase tracking-tighter text-stone-900 dark:text-white">Outdoor Advertising.</h3>
                 <p className="text-lg md:text-xl font-light leading-relaxed text-stone-700 dark:text-white/70">
-                  Imposing spatial presences on high-traffic corridors across Jeddah. We design double-height billboards and architectural wraps built to command local landscapes under evening spotlights.
+                  We help you reach more customers with outdoor advertising. We design and install large billboards and building wraps in high-traffic locations across Jeddah.
                 </p>
                 <div className="flex flex-wrap gap-3 pt-4 text-[10px] font-syne font-semibold uppercase tracking-wider text-stone-500 dark:text-white/50">
                   <span className="border border-light-border dark:border-white/10 px-3 py-1 rounded-xs">High-Altitude Media</span>
@@ -502,8 +502,8 @@ export default function Home() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950/90 via-stone-950/35 to-transparent flex flex-col justify-end p-6 sm:p-8 md:p-12 text-white">
               <span className="text-royal-hover text-xs font-syne font-bold uppercase tracking-widest mb-3">Jeddah Yacht Club & Marina</span>
-              <h3 className="text-3xl md:text-5xl font-syne font-extrabold uppercase tracking-tighter mb-4">Branded Oceanside Facades</h3>
-              <p className="text-white/60 font-serif italic text-sm md:text-base max-w-xl">Architectural maritime graphics, brushed gold VIP badges, and tensioned fabric marine banners.</p>
+              <h3 className="text-3xl md:text-5xl font-syne font-extrabold uppercase tracking-tighter mb-4">Outdoor Signs & Branding</h3>
+              <p className="text-white/60 font-serif italic text-sm md:text-base max-w-xl">High-quality outdoor signs, custom VIP badges, and banners for the club and marina.</p>
             </div>
           </div>
  
@@ -519,8 +519,8 @@ export default function Home() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950/90 via-stone-950/35 to-transparent flex flex-col justify-end p-6 sm:p-8 md:p-12 text-white">
               <span className="text-royal-hover text-xs font-syne font-bold uppercase tracking-widest mb-3">Armani Exchange Saudi Arabia</span>
-              <h3 className="text-3xl md:text-4xl font-syne font-extrabold uppercase tracking-tighter mb-4">Retail Campaign Synthesis</h3>
-              <p className="text-white/60 font-serif italic text-sm md:text-base max-w-sm">High-impact window sheets, custom backlit retail fabric signs, and soft lookbook print sheets.</p>
+              <h3 className="text-3xl md:text-4xl font-syne font-extrabold uppercase tracking-tighter mb-4">Storefront Advertising</h3>
+              <p className="text-white/60 font-serif italic text-sm md:text-base max-w-sm">Eye-catching window displays, backlit retail signs, and high-quality printed catalogs.</p>
             </div>
           </div>
  
@@ -536,8 +536,8 @@ export default function Home() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-950/90 via-stone-950/35 to-transparent flex flex-col justify-end p-6 sm:p-8 md:p-12 text-white">
               <span className="text-royal-hover text-xs font-syne font-bold uppercase tracking-widest mb-3">Rubaiyat Flagship Boutiques</span>
-              <h3 className="text-3xl md:text-5xl font-syne font-extrabold uppercase tracking-tighter mb-4">Bespoke Boutique Packaging</h3>
-              <p className="text-white/60 font-serif italic text-sm md:text-base max-w-md">Embossed catalog packaging boxes, hot-foiled golden lettering, and custom fine cotton paper details.</p>
+              <h3 className="text-3xl md:text-5xl font-syne font-extrabold uppercase tracking-tighter mb-4">Premium Gift Packaging</h3>
+              <p className="text-white/60 font-serif italic text-sm md:text-base max-w-md">Custom gift boxes with gold foil printing, catalog packaging, and premium paper bags.</p>
             </div>
           </div>
  
@@ -551,17 +551,17 @@ export default function Home() {
             
             {/* Left text column */}
             <div className="lg:col-span-5 flex flex-col gap-8 lg:sticky lg:top-32">
-              <span className="text-royal text-xs font-syne font-bold uppercase tracking-widest">[ The Standards of Excellence ]</span>
+              <span className="text-royal text-xs font-syne font-bold uppercase tracking-widest">[ Why Choose Us ]</span>
               <h2 className="text-5xl md:text-6xl font-syne font-extrabold uppercase tracking-tighter leading-none text-stone-900 dark:text-white">
-                We Don't Just Execute. <br />We <span className="font-serif italic font-light text-royal tracking-normal normal-case">Co-Author.</span>
+                We help you <br />build a <span className="font-serif italic font-light text-royal tracking-normal normal-case">trusted brand.</span>
               </h2>
               <p className="text-lg md:text-xl font-light text-stone-700 dark:text-white/70 leading-relaxed">
-                Physical details carry the exact status of your brand. In the luxury sectors of Jeddah and Riyadh, compromise is a structural failure. We build custom fabrications designed to command absolute status.
+                Your brand's image depends on quality. We design and print materials that look professional and make a lasting impression on your customers.
               </p>
               
               <div className="mt-4">
                 <Link href="/about" className="inline-flex items-center gap-4 text-xs font-syne font-bold uppercase tracking-widest border-b-2 border-royal pb-2 text-royal hover:text-royal-hover hover:border-royal-hover transition-colors">
-                  Explore Our Legacy <span>✦</span>
+                  Learn More About Us <span>✦</span>
                 </Link>
               </div>
             </div>
@@ -608,7 +608,7 @@ export default function Home() {
               {/* Overlapping Floating Typography Badge */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-royal text-white px-8 py-8 rounded-sm shadow-2xl border border-white/10 hidden md:block max-w-[180px] text-center select-none rotate-6">
                 <span className="block text-4xl font-syne font-extrabold tracking-tighter uppercase">Swiss</span>
-                <span className="text-[10px] font-syne font-bold uppercase tracking-widest block mt-2 border-t border-white/20 pt-2 opacity-80">Precision Calibrated</span>
+                <span className="text-[10px] font-syne font-bold uppercase tracking-widest block mt-2 border-t border-white/20 pt-2 opacity-80">High Quality</span>
               </div>
  
             </div>
@@ -643,19 +643,19 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
             
             <div className="lg:col-span-5 flex flex-col gap-6">
-              <span className="text-royal text-xs font-syne font-bold uppercase tracking-widest">[ Real Status Validations ]</span>
+              <span className="text-royal text-xs font-syne font-bold uppercase tracking-widest">[ What Our Clients Say ]</span>
               <div className="overflow-hidden">
                 <h3 className="reveal-mask text-4xl md:text-5xl font-serif italic font-light text-royal leading-tight mb-8">
-                  "Their attention to detail and spatial branding execution is extraordinary."
+                  "Their attention to detail and the quality of their work is excellent."
                 </h3>
               </div>
               <div>
                 <p className="text-md font-syne font-extrabold uppercase tracking-widest text-stone-900 dark:text-white">Jeddah Yacht Club Representative</p>
-                <p className="text-xs uppercase tracking-widest opacity-60 mt-1 text-stone-500 dark:text-white/60">Luxury Marine Asset & Marina Operations</p>
+                <p className="text-xs uppercase tracking-widest opacity-60 mt-1 text-stone-500 dark:text-white/60">Club & Marina Operations</p>
               </div>
               <div className="mt-8">
                 <Link href="/testimonials" className="inline-block border-2 border-royal text-royal hover:bg-royal hover:text-white px-8 py-4 font-syne font-bold uppercase tracking-widest text-xs transition-all duration-300">
-                  Read Luxury Chronicles
+                  Read Client Testimonials
                 </Link>
               </div>
             </div>
@@ -679,33 +679,33 @@ export default function Home() {
           
           <div className="overflow-hidden inline-block mb-16">
             <h2 className="reveal-mask text-[15vw] md:text-[10vw] leading-[0.8] font-syne font-extrabold uppercase tracking-tighter text-stone-900 dark:text-white">
-              Let's <br />Build It.
+              Let's <br />Work Together.
             </h2>
           </div>
- 
+
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-end mt-12">
             
             <div className="lg:col-span-7">
               <p className="text-lg md:text-3xl font-serif font-light text-stone-600 dark:text-white/60 mb-12 max-w-2xl leading-relaxed">
-                Partner with Jeddah's premier branding and luxury print workshop to shape an enduring physical legacy.
+                Work with our professional printing and advertising team in Jeddah to promote your business today.
               </p>
               <Link href="/contact" className="inline-block bg-royal text-white hover:bg-royal-hover px-10 py-5 font-syne font-bold uppercase tracking-widest text-xs transition-all duration-300 rounded-sm shadow-xl">
-                Initiate Project Brief ✦
+                Contact Us Today ✦
               </Link>
             </div>
- 
+
             <div className="lg:col-span-5 flex flex-col gap-8 text-left lg:text-right text-stone-900 dark:text-white">
               <div>
-                <span className="block text-[10px] font-syne font-bold uppercase tracking-widest text-stone-400 dark:text-white/40 mb-2">Corporate Headquarters</span>
+                <span className="block text-[10px] font-syne font-bold uppercase tracking-widest text-stone-400 dark:text-white/40 mb-2">Our Email</span>
                 <a href="mailto:print@iconic-advertising.com" className="text-xl md:text-2xl font-syne font-bold hover:text-royal transition-colors block">print@iconic-advertising.com</a>
               </div>
               <div>
-                <span className="block text-[10px] font-syne font-bold uppercase tracking-widest text-stone-400 dark:text-white/40 mb-2">Direct Liaisons</span>
+                <span className="block text-[10px] font-syne font-bold uppercase tracking-widest text-stone-400 dark:text-white/40 mb-2">Call Us</span>
                 <a href="tel:+966508570135" className="text-xl md:text-2xl font-syne font-bold hover:text-royal transition-colors block mb-1">+966 50 857 0135</a>
                 <a href="tel:+966504434890" className="text-xl md:text-2xl font-syne font-bold hover:text-royal transition-colors block">+966 50 443 4890</a>
               </div>
             </div>
- 
+
           </div>
         </div>
  
