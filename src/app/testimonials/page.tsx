@@ -58,14 +58,14 @@ export default function Testimonials() {
         
         {/* 1. Luxurious Header */}
         <section className="relative min-h-[45vh] flex flex-col justify-center mb-12 md:mb-24 border-b border-light-border dark:border-dark-border pb-8 md:pb-16">
-          <span className="text-royal text-xs font-syne font-bold uppercase tracking-widest mb-6 block">[ High-Status Collaborations ]</span>
+          <span className="text-royal text-xs font-syne font-bold uppercase tracking-widest mb-6 block">[ Client Testimonials ]</span>
           <div className="overflow-hidden mb-8">
             <h1 className="reveal-mask text-[8vw] leading-[0.85] font-syne font-extrabold uppercase tracking-tighter text-stone-900 dark:text-white">
-              Client <span className="font-serif italic font-light text-royal tracking-normal normal-case">Chronicles.</span>
+              Client <span className="font-serif italic font-light text-royal tracking-normal normal-case">Testimonials.</span>
             </h1>
           </div>
           <p className="text-xl md:text-2xl font-serif font-light text-stone-600 dark:text-white/60 max-w-2xl leading-relaxed">
-            Detailed campaign syntheses and spatial print narratives from high-profile leaders who refuse compromise on quality.
+            Read what our clients say about our printing quality, storefront signs, and professional advertising services.
           </p>
         </section>
  
@@ -96,15 +96,15 @@ export default function Testimonials() {
                 <span className="text-xs font-light text-stone-400 dark:text-white/40">[ CASE / 01 ]</span>
               </div>
               
-              <h2 className="text-4xl md:text-5xl font-syne font-extrabold uppercase tracking-tighter leading-none text-stone-900 dark:text-white">Campaign Synthesis</h2>
+              <h2 className="text-4xl md:text-5xl font-syne font-extrabold uppercase tracking-tighter leading-none text-stone-900 dark:text-white">Storefront Signs & Printing</h2>
               
               <blockquote className="text-2xl font-serif italic font-light leading-relaxed text-stone-850 dark:text-white/85 border-l-4 border-royal pl-6 py-2 my-2">
-                "ICONIC transformed our local campaigns in Jeddah. Their custom print direction, high-tension lightbox fabrication, and absolute color accuracy for Armani Exchange was flawless."
+                "ICONIC did a fantastic job with our retail displays in Jeddah. The printed signs, lightboxes, and color quality were absolutely perfect."
               </blockquote>
  
               <div className="text-xs font-syne font-bold uppercase tracking-wider text-stone-600 dark:text-white/60">
-                <span className="block font-extrabold text-stone-900 dark:text-white">Retail Marketing Director</span>
-                <span>Armani Exchange - Jeddah Liaison</span>
+                <span className="block font-extrabold text-stone-900 dark:text-white">Marketing Director</span>
+                <span>Armani Exchange - Jeddah</span>
               </div>
  
               {/* Nested Close-up Detail Image for storytelling depth */}
@@ -120,9 +120,9 @@ export default function Testimonials() {
                   />
                 </div>
                 <div className="md:col-span-7 flex flex-col gap-2">
-                  <span className="text-[9px] font-syne font-bold uppercase tracking-wider text-royal">Tactile print verification</span>
+                  <span className="text-[9px] font-syne font-bold uppercase tracking-wider text-royal">High-Quality Retail Printing</span>
                   <p className="text-xs font-light leading-relaxed text-stone-700 dark:text-white/70">
-                    We delivered high-resolution backlit foils calibrated under heavy-duty Swiss offset printers, ensuring flawless visual luxury levels.
+                    We provided high-resolution printed fabric signs for store lightboxes using advanced printers to ensure excellent visual appeal.
                   </p>
                 </div>
               </div>
@@ -154,15 +154,15 @@ export default function Testimonials() {
                 <span className="text-xs font-light text-stone-400 dark:text-white/40">[ CASE / 02 ]</span>
               </div>
               
-              <h2 className="text-4xl md:text-5xl font-syne font-extrabold uppercase tracking-tighter leading-none text-stone-900 dark:text-white">Identity Foil Stamping</h2>
+              <h2 className="text-4xl md:text-5xl font-syne font-extrabold uppercase tracking-tighter leading-none text-stone-900 dark:text-white">Custom Gift Packaging</h2>
               
               <blockquote className="text-2xl font-serif italic font-light leading-relaxed text-stone-850 dark:text-white/85 border-l-4 border-royal pl-6 py-2 my-2">
-                "For our flagship locations, details are everything. ICONIC delivered custom boutique packaging boxes that captured the soul of our high-end branding. The hand-foiled gold details and custom envelope embossings were exceptional."
+                "For our retail stores, the quality of packaging is very important. ICONIC provided custom gift boxes and bags that match our brand perfectly. The gold foil details and custom prints were excellent."
               </blockquote>
  
               <div className="text-xs font-syne font-bold uppercase tracking-wider text-stone-600 dark:text-white/60">
                 <span className="block font-extrabold text-stone-900 dark:text-white">Brand Director</span>
-                <span>Rubaiyat Store - Corporate Headquarters</span>
+                <span>Rubaiyat Store</span>
               </div>
  
               {/* Nested Detail Close-up */}
@@ -178,9 +178,9 @@ export default function Testimonials() {
                   />
                 </div>
                 <div className="md:col-span-7 flex flex-col gap-2">
-                  <span className="text-[9px] font-syne font-bold uppercase tracking-wider text-royal">Packaging craft details</span>
+                  <span className="text-[9px] font-syne font-bold uppercase tracking-wider text-royal">Custom Packaging Design</span>
                   <p className="text-xs font-light leading-relaxed text-stone-700 dark:text-white/70">
-                    Hand-crafted velvet gift packaging with custom 24k gold leaf foil printing, manufactured inside our Jeddah campus.
+                    Custom gift boxes with gold foil printing, designed and manufactured in our Jeddah facility.
                   </p>
                 </div>
               </div>
@@ -212,15 +212,15 @@ export default function Testimonials() {
                 <span className="text-xs font-light text-stone-400 dark:text-white/40">[ CASE / 03 ]</span>
               </div>
               
-              <h2 className="text-4xl md:text-5xl font-syne font-extrabold uppercase tracking-tighter leading-none text-stone-900 dark:text-white">Spatial Oceanside Facades</h2>
+              <h2 className="text-4xl md:text-5xl font-syne font-extrabold uppercase tracking-tighter leading-none text-stone-900 dark:text-white">Outdoor Signs & Banners</h2>
               
               <blockquote className="text-2xl font-serif italic font-light leading-relaxed text-stone-850 dark:text-white/85 border-l-4 border-royal pl-6 py-2 my-2">
-                "The grand opening demanded structural signage of colossal proportions and absolute weather resistance. ICONIC delivered structural brass elements and custom maritime fabric wraps that commanded immediate attention."
+                "For our grand opening, we needed large outdoor signs and banners that could withstand sea winds. ICONIC delivered high-quality brass signs and durable fabric wraps that looked amazing."
               </blockquote>
  
               <div className="text-xs font-syne font-bold uppercase tracking-wider text-stone-600 dark:text-white/60">
                 <span className="block font-extrabold text-stone-900 dark:text-white">Director of Operations</span>
-                <span>Jeddah Yacht Club & Marina Asset</span>
+                <span>Jeddah Yacht Club & Marina</span>
               </div>
  
               {/* Nested Detail Close-up */}
@@ -236,9 +236,9 @@ export default function Testimonials() {
                   />
                 </div>
                 <div className="md:col-span-7 flex flex-col gap-2">
-                  <span className="text-[9px] font-syne font-bold uppercase tracking-wider text-royal">OOH Spotlight calibration</span>
+                  <span className="text-[9px] font-syne font-bold uppercase tracking-wider text-royal">Weatherproof Outdoor Signage</span>
                   <p className="text-xs font-light leading-relaxed text-stone-700 dark:text-white/70">
-                    Grand structural signage wraps made to withstand sea wind, accompanied by twilight spotlight alignments.
+                    Large, durable outdoor signs built to withstand the wind and sun, designed to be highly visible day and night.
                   </p>
                 </div>
               </div>
