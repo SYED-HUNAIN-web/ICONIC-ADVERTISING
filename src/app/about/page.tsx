@@ -74,7 +74,7 @@ export default function About() {
           
           <div className="lg:col-span-7 relative h-[60vh] md:h-[80vh] overflow-hidden rounded-sm border border-light-border dark:border-dark-border shadow-luxury shadow-luxury-light dark:shadow-luxury-dark group">
             <Image 
-              src="/images/magazine_print_1780310572567.png" 
+              src="/images/4.png" 
               alt="Heavy Duty Luxury Craftsmanship" 
               fill 
               sizes="(max-width: 1024px) 100vw, 60vw"
@@ -151,7 +151,7 @@ export default function About() {
             <div className="flex flex-col gap-6 p-8 bg-light-surface dark:bg-dark-surface border border-light-border dark:border-dark-border rounded-sm shadow-luxury shadow-luxury-light dark:shadow-luxury-dark hover:translate-y-[-8px] transition-transform duration-500 md:translate-y-8">
               <div className="relative aspect-[16/10] w-full rounded-sm overflow-hidden mb-4 border border-black/5 dark:border-white/5">
                 <Image 
-                  src="/images/boutique_retail_facade.png" 
+                  src="/images/2.jpeg" 
                   alt="Spatial Identity" 
                   fill 
                   sizes="(max-width: 768px) 100vw, 30vw"
@@ -172,7 +172,7 @@ export default function About() {
             <div className="flex flex-col gap-6 p-8 bg-light-surface dark:bg-dark-surface border border-light-border dark:border-dark-border rounded-sm shadow-luxury shadow-luxury-light dark:shadow-luxury-dark hover:translate-y-[-8px] transition-transform duration-500">
               <div className="relative aspect-[16/10] w-full rounded-sm overflow-hidden mb-4 border border-black/5 dark:border-white/5">
                 <Image 
-                  src="/images/outdoor_billboard_night.png" 
+                  src="/images/jeddah_street_billboard.png" 
                   alt="High-Altitude Media" 
                   fill 
                   sizes="(max-width: 768px) 100vw, 30vw"
@@ -206,7 +206,7 @@ export default function About() {
               
               <div className="relative aspect-[16/9] w-full mt-6 rounded-sm overflow-hidden border border-white/10 shadow-xl hidden md:block">
                 <Image 
-                  src="/images/premium_packaging_mockup.png" 
+                  src="/images/6.jpeg" 
                   alt="Quality printing" 
                   fill 
                   sizes="(max-width: 1024px) 100vw, 50vw"
