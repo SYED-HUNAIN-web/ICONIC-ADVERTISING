@@ -46,7 +46,7 @@ const projects = [
     title: "Jeddah Roadside Canvas",
     category: "print",
     description: "Large Outdoor Billboards & Prints",
-    image: "/images/hero_billboard_1780310463480.png",
+    image: "/images/jeddah_highway_billboard.png",
     scale: "Double-Height Highway Vistas",
     finishing: "Waterproof & Weatherproof Ink",
     calibration: "High-Visibility Designs",
@@ -57,7 +57,7 @@ const projects = [
     title: "Elite Edition Lookbook",
     category: "print",
     description: "Premium Magazines & Catalogues",
-    image: "/images/magazine_print_1780310572567.png",
+    image: "/images/4.png",
     scale: "Milestone Corporate Editions",
     finishing: "Velvet Soft-Touch Covers",
     calibration: "High-Quality Color Printing",
@@ -68,7 +68,7 @@ const projects = [
     title: "Stationery Portfolio",
     category: "spatial",
     description: "Custom Folders & Business Cards",
-    image: "/images/branding_mockup_1780310477402.png",
+    image: "/images/1.jpeg",
     scale: "Bespoke Executive Folders",
     finishing: "Textured Premium Paper",
     calibration: "Precise Laser Cutting",
@@ -222,3 +222,4 @@ export default function Work() {
     </main>
   );
 }
+
