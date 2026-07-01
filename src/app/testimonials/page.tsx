@@ -79,7 +79,7 @@ export default function Testimonials() {
             <div className="lg:col-span-6 relative h-[50vh] md:h-[70vh] overflow-hidden rounded-sm border border-light-border dark:border-dark-border shadow-luxury shadow-luxury-light dark:shadow-luxury-dark group">
               <Image 
                 src="/images/armani_exchange.jpg" 
-                alt="Armani Exchange Visual Campaign" 
+                alt="Armani Exchange Storefront Display" 
                 fill 
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="case-parallax object-cover will-change-transform opacity-95 dark:opacity-85"
@@ -137,7 +137,7 @@ export default function Testimonials() {
             <div className="lg:col-span-6 relative h-[50vh] md:h-[70vh] overflow-hidden rounded-sm border border-light-border dark:border-dark-border shadow-luxury shadow-luxury-light dark:shadow-luxury-dark group lg:order-2">
               <Image 
                 src="/images/rubaiyat_store.webp" 
-                alt="Rubaiyat Store Luxury Packaging" 
+                alt="Rubaiyat Boutique Interior" 
                 fill 
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="case-parallax object-cover will-change-transform opacity-95 dark:opacity-85"
@@ -170,7 +170,7 @@ export default function Testimonials() {
                 <div className="md:col-span-5 relative aspect-[16/10] md:aspect-[1/1] w-full rounded-sm overflow-hidden border border-black/5 dark:border-white/5">
                   <Image 
                     src="/images/premium_packaging_mockup.png" 
-                    alt="Packaging craft close-up" 
+                    alt="Luxury Packaging Gold Foil Box" 
                     fill 
                     sizes="200px"
                     className="object-cover opacity-95 dark:opacity-85" 
@@ -227,7 +227,7 @@ export default function Testimonials() {
               <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center bg-light-surface/40 dark:bg-dark-surface/40 p-6 border border-light-border dark:border-dark-border rounded-sm shadow-luxury shadow-luxury-light dark:shadow-luxury-dark mt-4 backdrop-blur-xs">
                 <div className="md:col-span-5 relative aspect-[16/10] md:aspect-[1/1] w-full rounded-sm overflow-hidden border border-black/5 dark:border-white/5">
                   <Image 
-                    src="/images/outdoor_billboard_night.png" 
+                    src="/images/jeddah_street_billboard.png" 
                     alt="Twilight Signage campaign" 
                     fill 
                     sizes="200px"
