@@ -226,7 +226,7 @@ export default function Home() {
         <div className="absolute right-[14%] top-[35%] z-10 w-[18vw] hidden lg:block hero-float-card-2 will-change-transform pointer-events-none">
           <div className="relative aspect-[1/1] w-full rounded-sm overflow-hidden border border-black/[0.06] dark:border-white/[0.06] shadow-2xl bg-light-surface dark:bg-dark-surface">
             <Image 
-              src="/images/boutique_retail_facade.png" 
+              src="/images/luxury_storefront_facade.png" 
               alt="Sleek Storefront Facade" 
               fill
               sizes="18vw"
@@ -243,15 +243,15 @@ export default function Home() {
         <div className="absolute right-[24%] top-[12%] z-10 w-[19vw] hidden lg:block hero-float-card-3 will-change-transform pointer-events-none">
           <div className="relative aspect-[16/10] w-full rounded-sm overflow-hidden border border-black/[0.06] dark:border-white/[0.06] shadow-2xl bg-light-surface dark:bg-dark-surface">
             <Image 
-              src="/images/outdoor_billboard_night.png" 
-              alt="Highway Billboard Twilight View" 
+              src="/images/3.jpeg" 
+              alt="Rubaiyat Luxury Storefront" 
               fill
               sizes="19vw"
               className="object-cover opacity-70"
               priority
             />
             <div className="absolute bottom-3 left-3 text-[8px] font-syne font-bold uppercase tracking-widest bg-light-bg/85 dark:bg-dark-bg/85 text-light-accent dark:text-white px-2 py-0.5 backdrop-blur-sm rounded-xs">
-              OOH / Billboard Scale
+              Retail / Premium Storefront
             </div>
           </div>
         </div>
@@ -260,7 +260,7 @@ export default function Home() {
         <div className="absolute left-[24%] bottom-[12%] z-10 w-[12vw] hidden lg:block hero-float-card-4 will-change-transform pointer-events-none">
           <div className="relative aspect-[3/4] w-full rounded-sm overflow-hidden border border-black/[0.06] dark:border-white/[0.06] shadow-2xl bg-light-surface dark:bg-dark-surface">
             <Image 
-              src="/images/premium_packaging_mockup.png" 
+              src="/images/branding_mockup_1780310477402.png" 
               alt="Custom Bespoke Stationery Mockup" 
               fill
               sizes="12vw"
@@ -351,7 +351,7 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center relative">
               <div className="lg:col-span-7 relative h-[65vh] w-full overflow-hidden border border-light-border dark:border-dark-border group shadow-luxury shadow-luxury-light dark:shadow-luxury-dark rounded-sm">
                 <Image 
-                  src="/images/magazine_print_1780310572567.png" 
+                  src="/images/4.png" 
                   alt="High-end Printing" 
                   fill 
                   sizes="(max-width: 1024px) 100vw, 60vw"
@@ -394,8 +394,8 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center relative lg:flex-row-reverse">
               <div className="lg:col-span-7 lg:order-2 relative h-[65vh] w-full overflow-hidden border border-light-border dark:border-dark-border group shadow-luxury shadow-luxury-light dark:shadow-luxury-dark rounded-sm">
                 <Image 
-                  src="/images/branding_mockup_1780310477402.png" 
-                  alt="Premium Publishing" 
+                  src="/images/premium_packaging_mockup.png" 
+                  alt="Premium Custom Packaging" 
                   fill 
                   sizes="(max-width: 1024px) 100vw, 60vw"
                   className="img-parallax object-cover will-change-transform" 
@@ -405,8 +405,8 @@ export default function Home() {
                 {/* Embedded Overlapping Secondary Image */}
                 <div className="absolute bottom-8 left-8 w-[200px] aspect-[1/1] hidden md:block border border-black/5 dark:border-white/10 shadow-2xl overflow-hidden z-20 rounded-sm">
                   <Image 
-                    src="/images/premium_packaging_mockup.png" 
-                    alt="Embossed Box" 
+                    src="/images/branding_mockup_1780310477402.png" 
+                    alt="Bespoke Stationery Mockups" 
                     fill 
                     sizes="200px"
                     className="object-cover" 
@@ -437,7 +437,7 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center relative">
               <div className="lg:col-span-7 relative h-[65vh] w-full overflow-hidden border border-light-border dark:border-dark-border group shadow-luxury shadow-luxury-light dark:shadow-luxury-dark rounded-sm">
                 <Image 
-                  src="/images/hero_billboard_1780310463480.png" 
+                  src="/images/jeddah_highway_billboard.png" 
                   alt="Billboard Marketing" 
                   fill 
                   sizes="(max-width: 1024px) 100vw, 60vw"
@@ -448,7 +448,7 @@ export default function Home() {
                 {/* Embedded Overlapping Secondary Image */}
                 <div className="absolute top-8 right-8 w-[240px] aspect-[16/9] hidden md:block border border-black/5 dark:border-white/10 shadow-2xl overflow-hidden z-20 rounded-sm">
                   <Image 
-                    src="/images/outdoor_billboard_night.png" 
+                    src="/images/jeddah_street_billboard.png" 
                     alt="Twilight Billboard Campaign" 
                     fill 
                     sizes="240px"
@@ -511,7 +511,7 @@ export default function Home() {
           <div className="relative w-[65vw] md:w-[45vw] h-[85%] shrink-0 overflow-hidden group shadow-luxury shadow-luxury-light dark:shadow-luxury-dark border border-light-border dark:border-dark-border rounded-sm">
             <Image 
               src="/images/armani_exchange.jpg" 
-              alt="Armani Exchange" 
+              alt="Armani Exchange Storefront Signage" 
               fill 
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover transition-transform duration-[2s] group-hover:scale-105 will-change-transform" 
@@ -528,7 +528,7 @@ export default function Home() {
           <div className="relative w-[75vw] md:w-[55vw] h-full shrink-0 overflow-hidden group shadow-luxury shadow-luxury-light dark:shadow-luxury-dark border border-light-border dark:border-dark-border rounded-sm">
             <Image 
               src="/images/rubaiyat_store.webp" 
-              alt="Rubaiyat Store" 
+              alt="Rubaiyat Boutique Store" 
               fill 
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover transition-transform duration-[2s] group-hover:scale-105 will-change-transform" 
@@ -585,7 +585,7 @@ export default function Home() {
               <div className="relative aspect-[1/1] w-full rounded-sm overflow-hidden border border-light-border dark:border-dark-border shadow-luxury shadow-luxury-light dark:shadow-luxury-dark">
                 <Image 
                   src="/images/premium_packaging_mockup.png" 
-                  alt="Custom bespoke boxes" 
+                  alt="Premium Gift Packaging Mockup" 
                   fill 
                   sizes="(max-width: 768px) 100vw, 30vw"
                   className="object-cover opacity-95 dark:opacity-80 hover:scale-105 transition-transform duration-1000"
@@ -596,7 +596,7 @@ export default function Home() {
               {/* Image 3: Large Billboard twilight view */}
               <div className="relative aspect-[16/10] w-full rounded-sm overflow-hidden border border-light-border dark:border-dark-border shadow-luxury shadow-luxury-light dark:shadow-luxury-dark md:col-span-2 mt-8">
                 <Image 
-                  src="/images/outdoor_billboard_night.png" 
+                  src="/images/jeddah_street_billboard.png" 
                   alt="Highway luxury billboard" 
                   fill 
                   sizes="(max-width: 768px) 100vw, 60vw"
