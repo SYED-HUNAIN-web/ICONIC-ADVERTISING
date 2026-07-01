@@ -99,8 +99,8 @@ export default function Contact() {
             {/* HQ Visual Showcase */}
             <div className="relative aspect-[16/10] w-full rounded-sm overflow-hidden border border-light-border dark:border-dark-border shadow-luxury shadow-luxury-light dark:shadow-luxury-dark group">
               <Image 
-                src="/images/boutique_retail_facade.png" 
-                alt="Jeddah headquarters boutique facade" 
+                src="/images/luxury_storefront_facade.png" 
+                alt="Luxury storefront facade" 
                 fill 
                 sizes="(max-width: 1024px) 100vw, 40vw"
                 className="object-cover transition-transform duration-[2s] group-hover:scale-105 opacity-95 dark:opacity-85"
@@ -108,7 +108,7 @@ export default function Contact() {
               />
               <div className="absolute inset-0 bg-stone-900/5 group-hover:bg-transparent transition-colors duration-700" />
               <div className="absolute bottom-4 left-4 bg-royal text-white py-1 px-3 text-[9px] font-syne font-bold uppercase tracking-widest rounded-xs">
-                Jeddah Headquarters
+                Luxury Storefront Facade
               </div>
             </div>
  
